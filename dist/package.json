@@ -1,0 +1,7 @@
+{
+  "name": "mylibrary",
+  "main": "bundles/bundle.js",
+  "peerDependencies": {
+    "react": "^18.0.0"
+  }
+}
