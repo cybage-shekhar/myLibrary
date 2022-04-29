@@ -24,9 +24,10 @@ export default {
             baseContents: (pkg) => ({
                 name: pkg.name,
                 main: 'bundles/bundle.js',
-                peerDependencies: {
-                  "react": "^18.0.0"
-                }
+                // peerDependencies: {
+                //   "react": "^18.1.0",
+                //   "react-dom": "^18.1.0"
+                // }
             })            
         })
     ]
