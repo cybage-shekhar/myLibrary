@@ -25,7 +25,6 @@ const [counter, setCounter] = useState(0);
 
     return () => clearInterval(intervalId);
   }, [isActive, counter])
-  console.log(second);
   return (
     <div className="container">
       <div className="time">
